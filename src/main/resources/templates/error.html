@@ -1,0 +1,21 @@
+<html xmlns:th="https://thymeleaf.org">
+<html lang="en">
+<head>
+    <title>Index Page</title>
+</head>
+<body>
+<form action="/register" method="post">
+    <table>
+        <tr>
+            <td><h4 th:text="${msg}"></h4></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Register Here"></input></td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
